@@ -1,0 +1,71 @@
+﻿  ArrayRecord.cpp
+  FileTapeLibrary.cpp
+C:\Users\micha\Desktop\Studia\SBD\Project2\FileTapeLibrary\FileTapeLibrary.cpp(37,35): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\tuple(163,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty=unsigned int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\tuple(244): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=unsigned int,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\tuple(244): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=unsigned int,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\tuple(825): message : see reference to function template instantiation 'std::tuple<unsigned int,unsigned __int64>::tuple<std::_Exact_args_t,unsigned __int64,unsigned __int64,0>(_Tag,_This2 &&,unsigned __int64 &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\tuple(825): message : see reference to function template instantiation 'std::tuple<unsigned int,unsigned __int64>::tuple<std::_Exact_args_t,unsigned __int64,unsigned __int64,0>(_Tag,_This2 &&,unsigned __int64 &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\tuple(251): message : see reference to function template instantiation 'std::tuple<unsigned int,unsigned __int64>::tuple<std::_Unpack_tuple_t,_Ty,0,1,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1>)' being compiled
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,unsigned __int64>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,unsigned __int64>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\tuple(251): message : see reference to function template instantiation 'std::tuple<unsigned int,unsigned __int64>::tuple<std::_Unpack_tuple_t,_Ty,0,1,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1>)' being compiled
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,unsigned __int64>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,unsigned __int64>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\tuple(377): message : see reference to function template instantiation 'std::tuple<unsigned int,unsigned __int64>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,unsigned __int64>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,unsigned __int64>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include\tuple(377): message : see reference to function template instantiation 'std::tuple<unsigned int,unsigned __int64>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,unsigned __int64>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,unsigned __int64>
+          ]
+C:\Users\micha\Desktop\Studia\SBD\Project2\FileTapeLibrary\FileTapeLibrary.cpp(391): message : see reference to function template instantiation 'std::tuple<unsigned int,unsigned __int64>::tuple<unsigned __int64,unsigned __int64,0>(std::tuple<unsigned __int64,unsigned __int64> &&) noexcept' being compiled
+C:\Users\micha\Desktop\Studia\SBD\Project2\FileTapeLibrary\FileTapeLibrary.cpp(391): message : see reference to function template instantiation 'std::tuple<unsigned int,unsigned __int64>::tuple<unsigned __int64,unsigned __int64,0>(std::tuple<unsigned __int64,unsigned __int64> &&) noexcept' being compiled
+  Tape.cpp
+C:\Users\micha\Desktop\Studia\SBD\Project2\FileTapeLibrary\Tape.cpp(78,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\micha\Desktop\Studia\SBD\Project2\x64\Debug\FileTapeLibrary.exe : fatal error LNK1120: 1 unresolved externals
